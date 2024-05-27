@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <title>Car game </title>
+    
+</head>
+<body>  
+
+    <a-scene>
+        <a-assets>
+            
+            <a-asset-item src="./cartoon_race_track_-_oval/scene.gltf" id="race_track"></a-asset-item>
+        </a-assets>
+        <a-sky color="#a3bff0"></a-sky>
+            
+        <a-entity id="track" gltf-model="#race_track" position="0 0 0" scale="1" ></a-entity>
+    
+    </a-scene>
+</body>
+</html>
